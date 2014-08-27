@@ -21,6 +21,7 @@
 		3257A9E719AE777E003BD22A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3257A9C919AE777E003BD22A /* UIKit.framework */; };
 		3257A9EF19AE777E003BD22A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3257A9ED19AE777E003BD22A /* InfoPlist.strings */; };
 		3257A9F119AE777E003BD22A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3257A9F019AE777E003BD22A /* Git_TestTests.m */; };
+		3257A9FC19AE7A6C003BD22A /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3257A9FB19AE7A6C003BD22A /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3257A9EC19AE777E003BD22A /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		3257A9EE19AE777E003BD22A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3257A9F019AE777E003BD22A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		3257A9FA19AE7A6C003BD22A /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		3257A9FB19AE7A6C003BD22A /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				3257A9DB19AE777E003BD22A /* CCViewController.m */,
 				3257A9DD19AE777E003BD22A /* Images.xcassets */,
 				3257A9CC19AE777E003BD22A /* Supporting Files */,
+				3257A9FA19AE7A6C003BD22A /* CCTest.h */,
+				3257A9FB19AE7A6C003BD22A /* CCTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3257A9D619AE777E003BD22A /* CCAppDelegate.m in Sources */,
+				3257A9FC19AE7A6C003BD22A /* CCTest.m in Sources */,
 				3257A9D219AE777E003BD22A /* main.m in Sources */,
 				3257A9DC19AE777E003BD22A /* CCViewController.m in Sources */,
 			);
